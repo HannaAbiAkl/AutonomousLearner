@@ -1,0 +1,254 @@
+INFO:root:********************** Model 2022-10-27 16:48:47.843394 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:146.0 FOR:'(Class(0) ∧ Class(1) ∧ Class(2) ∧ subclassOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'Get all Class-Subclass relationships' FORMULA:7 
+INFO:root:UPWARD INFERENCE RESULT:147.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 147.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:01:38.857055 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:146.0 FOR:'(Class(0) ∧ Class(1) ∧ Class(2) ∧ subclassOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'Get all Class-Subclass relationships' FORMULA:7 
+INFO:root:UPWARD INFERENCE RESULT:147.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 147.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:13:07.898367 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:21.0 FOR:'(Class(0) ∧ Class(1) ∧ Class(2) ∧ subclassOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:UPWARD INFERENCE RESULT:22.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 22.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:17:18.142207 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:21.0 FOR:'(Class(0) ∧ Class(1) ∧ Class(2) ∧ subclassOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:UPWARD INFERENCE RESULT:22.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 22.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:37:16.044679 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:39:56.925243 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:11 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:12 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:13 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:41:42.479355 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:11 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:12 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:13 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:46:33.396036 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:9 
+INFO:root:UPWARD INFERENCE RESULT:1.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 1.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:12 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:13 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(instanceOf(0, 1) ∧ instanceOf(0, 2))' FORMULA:15 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:14 
+INFO:root:UPWARD INFERENCE RESULT:5.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 5.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:50:23.509144 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(instanceOf(0, 1) ∧ instanceOf(0, 2))' FORMULA:9 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:5.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 5.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:51:44.040900 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(instanceOf(0, 1) ∧ instanceOf(0, 2))' FORMULA:9 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:5.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 5.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:12 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:15 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:16 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ instanceOf(0, 2))' FORMULA:18 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:17 
+INFO:root:UPWARD INFERENCE RESULT:7.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 7.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:21 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:22 
+INFO:root:UPWARD INFERENCE RESULT:3.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 3.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 17:57:09.335915 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 18:00:22.113386 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:11 
+INFO:root:UPWARD INFERENCE RESULT:6.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 6.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 18:01:38.958201 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:11 
+INFO:root:UPWARD INFERENCE RESULT:6.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 6.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2022-10-27 18:02:08.109238 **********************
+INFO:root:BOUNDED REASONING LOOP
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:2.0 FOR:'(Instance(0) ∧ Class(1) ∧ Class(2) ∧ instanceOf(0, 1) ∧ subclassOf(1, 2))' FORMULA:6 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-class-subclass-relationships' FORMULA:7 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'get-all-instance-class-relationships' FORMULA:8 
+INFO:root:UPWARD INFERENCE RESULT:4.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 4.0 BOUNDS UPDATES IN 2 REASONING STEPS 
+INFO:root:******************************************************************************
