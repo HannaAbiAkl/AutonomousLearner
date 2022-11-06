@@ -1,0 +1,3427 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined",
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.ontotext.com/proton/protontop",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "ptop": "http://www.ontotext.com/proton/protontop#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "undefined": "Proton"
+    },
+    "iri": "http://www.ontotext.com/proton/protontop",
+    "version": "3.0",
+    "author": [
+      "Ontotext (Kiril Simov, Atanas Kiryakov, Ivan Terziev, Dimitar Manov, Mariana Damova, Svetoslav Petrov)"
+    ],
+    "labels": {
+      "undefined": "Proton Ontology"
+    },
+    "comments": {
+      "undefined": "PROTON (Proto Ontology), Top module"
+    },
+    "other": {
+      "creator": [
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "Ontotext (Kiril Simov, Atanas Kiryakov, Ivan Terziev, Dimitar Manov, Mariana Damova, Svetoslav Petrov)",
+          "type": "label"
+        }
+      ],
+      "subject": [
+        {
+          "identifier": "subject",
+          "language": "undefined",
+          "value": "Upper-level ontology with extensions to handle Linked Open Data (LOD)",
+          "type": "label"
+        }
+      ],
+      "rights": [
+        {
+          "identifier": "rights",
+          "language": "undefined",
+          "value": "Proton ontology is available under the Creative Commons Attribution 3.0 Unported license; see http://creativecommons.org/licenses/by/3.0/. In a nutshell, you are free to copy, distribute and transmit the work; to remix/adapt the work (e.g. to import the ontology and create specializations of its elements), as long as you attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). Proper Attribution: Simply include the statement This work is based on Proton ontology, developed by Ontotext and link back to http://www.ontotext.com/proton-ontology",
+          "type": "label"
+        }
+      ],
+      "versionInfo": [
+        {
+          "identifier": "versionInfo",
+          "language": "undefined",
+          "value": "3.0",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Proton",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.91",
+      "translation": [
+        428.59,
+        -854.32
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "1"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "6",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "38",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "54",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "55",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "56",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "48",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "59",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "60",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "99",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "109",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "110",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "101",
+      "type": "owl:Class"
+    },
+    {
+      "id": "113",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "94",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "115",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "103",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "149",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "118",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "121",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "13",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "127",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "129",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "131",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "6",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.ontotext.com/proton/protontop#Situation",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Situation",
+        "en": "Situation"
+      },
+      "comment": {
+        "en": "A static event or situation, like \"sitting on a chair\" or \"holding position\". Typically, those are temporarily homogenous, i.e. their nature is not expected/required to change with their duration. As a happening, they used to happen/take place/be true for some periods of time and may or may not have a well-defined space extension."
+      },
+      "pos": [
+        -93.61,
+        307.55
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.ontotext.com/proton/protontop#Language",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Language",
+        "en": "Language"
+      },
+      "comment": {
+        "en": "A spoken or written natural language"
+      },
+      "pos": [
+        1447.89,
+        223.76
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.ontotext.com/proton/protontop#Location",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Location",
+        "en": "Location"
+      },
+      "comment": {
+        "en": "Usually a geographic location on the earth, however any sort of 3D regions also fit here. The classification is based on the ADL Feature Type Thesaurus version 070203. Additionally, classes from Geonames classification are included. For each specific type, the corresponding NIMA GNS designators (DSG) are given."
+      },
+      "pos": [
+        927.29,
+        8.39
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        860.27,
+        -376.71
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.ontotext.com/proton/protontop#Number",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Number",
+        "en": "Number"
+      },
+      "comment": {
+        "en": "Any given number, within the meaning that a number is one of the following: a concept of quantity derived from zero and units; or a numeral (or a string of numerals) used for identification (\"she refused to give them her Social Security number\"); or a phone number, etc."
+      },
+      "pos": [
+        1333.37,
+        -495.48
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.ontotext.com/proton/protontop#TimeInterval",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "TimeInterval",
+        "en": "Time Interval"
+      },
+      "comment": {
+        "en": "This is a general time expression, which refers to a particular period of time, an interval. Repeating periods (like Spring or Christmas) are not time intervals, while specific instances of them (like the Spring of 1944) are. A TimeInterval could collapse, in very special cases, to a time point, however in this case, in contrast to the Abstract time point (referring to some time during the day), it should be bound to a specific date, i.e. to represent a timestamp."
+      },
+      "pos": [
+        -41.26,
+        408.83
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        707.51,
+        1188.16
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        -646.64,
+        403.72
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        28.66,
+        1528.57
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.ontotext.com/proton/protontop#Object",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Object",
+        "en": "Object"
+      },
+      "comment": {
+        "en": "Objects are entities that could be claimed to exist - in some sense of existence. An object can play a certain role in some happenings. Objects could be substantially real - as the Buckingham Palace or a hardcopy book - or substantially imperceptible - for instance, an electronic document that exists only virtually, one cannot touch it."
+      },
+      "pos": [
+        863.88,
+        475.66
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.ontotext.com/proton/protontop#Entity",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Entity",
+        "en": "Entity"
+      },
+      "comment": {
+        "en": "Any sort of an entity of interest, usually something existing, happening, or purely abstract. Entities may have several - more than one - names or aliases."
+      },
+      "pos": [
+        609.79,
+        -26.58
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.ontotext.com/proton/protontop#Role",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Role",
+        "en": "Role"
+      },
+      "comment": {
+        "en": "The role of an entity (usually an agent) within/during/affecting (intentionally or not) a particular happening. For instance a project coordinator, or a trial defendant, or even a material object that serves as an evidence in a trial (e.g. a weapon). Usually, we say 'this object is in this role in this happening'."
+      },
+      "pos": [
+        145.4,
+        -71.48
+      ]
+    },
+    {
+      "id": "99",
+      "iri": "http://www.ontotext.com/proton/protontop#ContactInformation",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "ContactInformation",
+        "en": "Contact Information"
+      },
+      "comment": {
+        "en": "Any instance of a particular notation, used to make the contact with an individual, an organization, or any other object possible."
+      },
+      "pos": [
+        1157.75,
+        214.72
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://www.ontotext.com/proton/protontop#ProductModel",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "ProductModel",
+        "en": "Product Model"
+      },
+      "comment": {
+        "en": "The general concept of a product model, for example, Ford T. The instances of this class are not specific instances of the product - the latter are just instances. Although product models are rather abstract entities (generally, intangible), this class is defined as a sub-class of Object, because it has a strong temporal extent (it comes to exsitence at some point of time). There could be several information resources associated with a product model (e.g. specifications, brouchures, etc.), but it is not an information resource on its own."
+      },
+      "pos": [
+        1011.55,
+        841.69
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "101",
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "pos": [
+        552.27,
+        371.27
+      ]
+    },
+    {
+      "id": "113",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "115",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "103",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.ontotext.com/proton/protontop#Organization",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Organization",
+        "en": "Organization"
+      },
+      "comment": {
+        "en": "Organization is a group, which is established in such a way that certain known relationships and obligations exist between the members, and/or between the organization and its members, and/or between the organization and the public (individuals or groups). It includes both informal and legally constituted organizations. Organizations can act as agents - to undertake projects, to enter into agreements, to own properties, etc. Most organizations have names. Almost all of them have at least two members."
+      },
+      "pos": [
+        -404.25,
+        674.14
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://www.ontotext.com/proton/protontop#Group",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Group",
+        "en": "Group"
+      },
+      "comment": {
+        "en": "A group of agents that is not organized in any way. It could be the group of people in a bus or the shareholders of a company."
+      },
+      "pos": [
+        159.88,
+        798.98
+      ]
+    },
+    {
+      "id": "122",
+      "iri": "http://www.ontotext.com/proton/protontop#Topic",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Topic",
+        "en": "Topic"
+      },
+      "comment": {
+        "en": "Any sort of a topic or theme, explicitly defined for classification purposes. As long as any other class or entity can play the role of a topic, the instances of this class are only those concepts that are defined to serve as topics. The topic class is the natural top-class for linkage of logically informal taxonomies."
+      },
+      "pos": [
+        1592.75,
+        200.6
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.ontotext.com/proton/protontop#Person",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Person",
+        "en": "Person"
+      },
+      "comment": {
+        "en": "A Person is an agent, which is an individual who is a human being (i.e. any living or not alive member of the family Hominidae). Wordnet 2.0."
+      },
+      "pos": [
+        149.05,
+        1192
+      ]
+    },
+    {
+      "id": "74",
+      "iri": "http://www.ontotext.com/proton/protontop#JobPosition",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "JobPosition",
+        "en": "Job Position"
+      },
+      "comment": {
+        "en": "The situation of a person, holding a job (employment) position within an organization. The sub-classes of this class define a number of different types of positions."
+      },
+      "pos": [
+        -281.02,
+        1072.52
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.ontotext.com/proton/protontop#Statement",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Statement",
+        "en": "Statement"
+      },
+      "comment": {
+        "en": "A message that is stated or declared; a communication (oral or written), setting forth particulars or facts, etc; \"according to his statement he was in London on that day\". WordNet 1.7.1"
+      },
+      "pos": [
+        1074.39,
+        881.14
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.ontotext.com/proton/protontop#Agent",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Agent",
+        "en": "Agent"
+      },
+      "comment": {
+        "en": "An Agent is something, which can show (carry out) an independent action, whether consciously or not. Most animals are considered agents, in most contexts; so are most organizations. According to DOLCE 2.0 \"objects to which we ascribe intentions, beliefs and desires\". In PROTON, Agent also denotes any automatic device and service, including web services and servers."
+      },
+      "pos": [
+        616.07,
+        792.78
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.ontotext.com/proton/protontop#Happening",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Happening",
+        "en": "Happening"
+      },
+      "comment": {
+        "en": "Something that happens. It can be either dynamic - like in \"drawing a circle\", or static - like in \"being a president\". In all cases, a happening (an event, a situation, or a time period) has a certain (usually quite concrete) temporal positioning - in the simplest case it is the one, denoted by start and end point in time."
+      },
+      "pos": [
+        298.74,
+        252.69
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.ontotext.com/proton/protontop#Service",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Service",
+        "en": "Service"
+      },
+      "comment": {
+        "en": "Any sort of service, ranging from a scheduled flight or train services to a weather forecast information/web serivce. Many services could be considered agents (usually software services)."
+      },
+      "pos": [
+        950.15,
+        943.6
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.ontotext.com/proton/protontop#Document",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Document",
+        "en": "Document"
+      },
+      "comment": {
+        "en": "The information content of any sort of document. The tangible aspects are ignored. It is usually a document in free text with no formal structure or semantics."
+      },
+      "pos": [
+        1653,
+        845.67
+      ]
+    },
+    {
+      "id": "149",
+      "iri": "http://www.ontotext.com/proton/protontop#GeneralTerm",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "GeneralTerm",
+        "en": "General Term"
+      },
+      "comment": {
+        "en": "General concept with well defined (idiomatic) meaning which can have a set of distinct lexical items (surface realizations) associated with it. Examples are: F2F, I18N, P2P, B2B, VIP, ASAP, Semantic Web"
+      },
+      "pos": [
+        1535.03,
+        -353.03
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.ontotext.com/proton/protontop#SocialPosition",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "SocialPosition",
+        "en": "Social Position"
+      },
+      "comment": {
+        "en": "The situation of a person, having a social position like celebrity, nobelty, job position, cleric, out of laws. The sub-classes of this class define different social statuses."
+      },
+      "pos": [
+        -74.91,
+        798.52
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        497.18,
+        -1007.31
+      ]
+    },
+    {
+      "id": "118",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "121",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "127",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "129",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://www.ontotext.com/proton/protontop#Event",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Event",
+        "en": "Event"
+      },
+      "comment": {
+        "en": "A dynamic event, such as \"running\" or \"a concert\"."
+      },
+      "pos": [
+        -63.97,
+        20.35
+      ]
+    },
+    {
+      "id": "131",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.ontotext.com/proton/protontop#Abstract",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "Abstract",
+        "en": "Abstract"
+      },
+      "comment": {
+        "en": "Something, which neither happens nor exists, e.g. a number or a chemical compound formula. Those are usually some symbols, invented to refer to general notions."
+      },
+      "pos": [
+        1224.24,
+        -123.96
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.ontotext.com/proton/protontop#InformationResource",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "InformationResource",
+        "en": "Information Resource"
+      },
+      "comment": {
+        "en": "InformationResource denotes an information resource with identity, as defined in Dublin Core (DC2003ISO). InformationResource is considered any communication or message that is delivered or produced, taking into account the specific intention of its originator, and also the supposition (and anticipation) for a particular audience or counter-agent in the process of communication (i.e. passive or active feed-back)."
+      },
+      "pos": [
+        1326.47,
+        623.27
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "3",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "14",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "19",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "22",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "28",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "35",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "39",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "45",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "47",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "51",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "25",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "57",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "62",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "65",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "64",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "68",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "70",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "71",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "72",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "73",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "77",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "79",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "80",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "84",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "85",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "86",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "87",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "88",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "89",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "90",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "91",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "92",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "93",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "95",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "96",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "97",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "24",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "100",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "63",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "102",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "104",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "106",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "108",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "98",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "111",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "112",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "114",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "116",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "117",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "119",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "120",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "36",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "124",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "125",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "126",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "128",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "130",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "132",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "107",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "133",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "134",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "135",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "136",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "81",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "137",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "138",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "139",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "105",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "140",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "141",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "123",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "142",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "143",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "144",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "145",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "67",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "146",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "147",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "148",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "150",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "151",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "152",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "83",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "153",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "154",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "82",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "155",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "156",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "157",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "75",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "158",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "159",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "160",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "161",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "78",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "GENERATED-UNION-101-21-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-101-12-1",
+      "type": "setOperatorProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.ontotext.com/proton/protontop#title",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "title",
+        "en": "Title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "A name given to an information resource. Typically, title will be a name by which the resource is formally known. (DC2003ISO, Title there)"
+      },
+      "domain": "1",
+      "range": "2"
+    },
+    {
+      "id": "3",
+      "iri": "http://www.ontotext.com/proton/protontop#establishmentDate",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "establishmentDate",
+        "en": "Establishment Date"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The date when the organization was established or registered"
+      },
+      "domain": "4",
+      "range": "5"
+    },
+    {
+      "id": "7",
+      "iri": "http://www.ontotext.com/proton/protontop#hasSocialPosition",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasSocialPosition",
+        "en": "has Social Position"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation between a person and the social position he has. "
+      },
+      "domain": "8",
+      "range": "9",
+      "inverse": "10",
+      "pos": [
+        37.07,
+        995.26
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.ontotext.com/proton/protontop#description",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "description",
+        "en": "Description"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "A textual description of an entity. Usually a free text in some natural language. As defined in DC2003ISO for InformationResources. In a sense, it is a specializatoin of rdf:comment"
+      },
+      "domain": "12",
+      "range": "13"
+    },
+    {
+      "id": "14",
+      "iri": "http://www.ontotext.com/proton/protontop#mainLabel",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "mainLabel",
+        "en": "Main Label"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "This is a label of an entity which is consider to be representative for it. In cases when the entity is presented to someone, usually, this label will be used. In a sense, it is a specializatoin of rdfs:label"
+      },
+      "domain": "12",
+      "range": "15"
+    },
+    {
+      "id": "19",
+      "iri": "http://www.ontotext.com/proton/protontop#isOwnedBy",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "isOwnedBy",
+        "en": "is Owned by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation between an object and an agent that is the owner of that object."
+      },
+      "domain": "20",
+      "range": "21",
+      "pos": [
+        769.8,
+        660.48
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.ontotext.com/proton/protontop#hasCreator",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasCreator",
+        "en": "has Creator"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "An agent primarily responsible for making the content of a resource. Examples of Creator include a person, an organization, or a service. Typically, the name of the Creator should be used to indicate the agent. (DC2003ISO, Creator)"
+      },
+      "domain": "23",
+      "range": "23",
+      "subproperty": [
+        "25"
+      ],
+      "superproperty": [
+        "24"
+      ],
+      "pos": [
+        360.35,
+        -1085.33
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.ontotext.com/proton/protontop#documentSubTitle",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "documentSubTitle",
+        "en": "Document Subtitle"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "A very short sub-title of a document, usually a single sentence"
+      },
+      "domain": "29",
+      "range": "30"
+    },
+    {
+      "id": "35",
+      "iri": "http://www.ontotext.com/proton/protontop#hasChild",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasChild",
+        "en": "has Child"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation of a parent to his/her child."
+      },
+      "domain": "23",
+      "range": "23",
+      "superproperty": [
+        "36"
+      ],
+      "inverse": "119",
+      "pos": [
+        623.92,
+        -1101.82
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.ontotext.com/proton/protontop#derivedFromSource",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "derivedFromSource",
+        "en": "Derived from Source"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "A reference to a resource from which the present resource is derived. The present resource may be derived from the Source resource in whole or in part. Recommended best practice is to identify the referenced resource by means of a string or number conforming to a formal identification system. DC2003ISO"
+      },
+      "domain": "1",
+      "range": "1",
+      "pos": [
+        1491.46,
+        648.24
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.ontotext.com/proton/protontop#laconicDescription",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "laconicDescription",
+        "en": "Laconic Description"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "An extremely short (typically, single sentence) description of an entity"
+      },
+      "domain": "23",
+      "range": "46"
+    },
+    {
+      "id": "47",
+      "iri": "http://www.ontotext.com/proton/protontop#doingBusinessAs",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "doingBusinessAs",
+        "en": "Doing Business as"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "A name used for marketing purposes. Usually, it does not correspond to the legal name of the organisation."
+      },
+      "domain": "4",
+      "range": "48"
+    },
+    {
+      "id": "51",
+      "iri": "http://www.ontotext.com/proton/protontop#validFrom",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "validFrom",
+        "en": "Valid from"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The time when a statement is made valid. The happing of making the statement valid is not explicitly represented in Proton. If it is necessary for the task the ontology needs to be extented."
+      },
+      "domain": "52",
+      "range": "53"
+    },
+    {
+      "id": "25",
+      "iri": "http://www.ontotext.com/proton/protontop#documentAuthor",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "documentAuthor",
+        "en": "Document Author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The creator (or one of the creators) of a document."
+      },
+      "domain": "55",
+      "range": "21",
+      "superproperty": [
+        "22"
+      ],
+      "pos": [
+        664.04,
+        1000.22
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.ontotext.com/proton/protontop#operatedBy",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "operatedBy",
+        "en": "Operated by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "A relation between a service and the agent (usually organisation), who provides it"
+      },
+      "domain": "58",
+      "range": "21",
+      "pos": [
+        783.11,
+        868.19
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.ontotext.com/proton/protontop#hasParticipant",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasParticipant",
+        "en": "Participant in a Happening"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation between a happenning and the agent involved in it. Fequently, the participants play some roles in the happening, then the appriate roles have to be introduced."
+      },
+      "domain": "17",
+      "range": "21",
+      "superproperty": [
+        "64"
+      ],
+      "inverse": "63",
+      "pos": [
+        457.4,
+        522.74
+      ]
+    },
+    {
+      "id": "65",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "66",
+      "range": "21",
+      "pos": [
+        392.12,
+        793.98
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.ontotext.com/proton/protontop#hasParticipatingEntity",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasParticipatingEntity",
+        "en": "Entity Participating in a Happening"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation between a happening and an entity determining it. Such entities can be agents, instruments, materials, places, etc."
+      },
+      "domain": "17",
+      "range": "12",
+      "subproperty": [
+        "62"
+      ],
+      "inverse": "67",
+      "pos": [
+        445.6,
+        98.8
+      ]
+    },
+    {
+      "id": "68",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "69",
+      "range": "17",
+      "pos": [
+        117.38,
+        136.52
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.ontotext.com/proton/protontop#documentAbstract",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "documentAbstract",
+        "en": "Document Abstract"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "An abstract or summary of a document."
+      },
+      "domain": "29",
+      "range": "44"
+    },
+    {
+      "id": "71",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "21",
+      "pos": [
+        382.56,
+        992.39
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://www.ontotext.com/proton/protontop#longitude",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "longitude",
+        "en": "Longitude"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "In degrees, minutes, and seconds: no sign or (+) = East; negative sign (-) = West."
+      },
+      "domain": "34",
+      "range": "43"
+    },
+    {
+      "id": "73",
+      "iri": "http://www.ontotext.com/proton/protontop#hasPosition",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasPosition",
+        "en": "has Position"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relation between a person and his/her job position."
+      },
+      "domain": "8",
+      "range": "74",
+      "inverse": "75",
+      "pos": [
+        -65.99,
+        1132.26
+      ]
+    },
+    {
+      "id": "77",
+      "iri": "http://www.ontotext.com/proton/protontop#controls",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "controls",
+        "en": "Controls"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Indicates that an Agent has full control over an object. This is typically the case of wholly-owned subsidiaries and physicall possession of goods."
+      },
+      "domain": "23",
+      "range": "23",
+      "superproperty": [
+        "78"
+      ],
+      "pos": [
+        342.31,
+        -971.94
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://www.ontotext.com/proton/protontop#resourceFormat",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "resourceFormat",
+        "en": "Resource Format"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The physical or digital manifestation of the resource. Typically, Format will include the media-type or dimensions of the resource. Format may be used to identify the software, hardware, or other equipment needed to display or operate the resource. Examples of dimensions include size and duration. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats). DC2003ISO"
+      },
+      "domain": "1",
+      "range": "37"
+    },
+    {
+      "id": "80",
+      "iri": "http://www.ontotext.com/proton/protontop#locatedIn",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "locatedIn",
+        "en": "Located in"
+      },
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "comment": {
+        "en": "The relation between an object (also some happenings via their participants) and location where the object is."
+      },
+      "domain": "12",
+      "range": "34",
+      "subproperty": [
+        "81",
+        "82",
+        "83"
+      ],
+      "pos": [
+        768.54,
+        -9.1
+      ]
+    },
+    {
+      "id": "84",
+      "iri": "http://www.ontotext.com/proton/protontop#numberOfEmployees",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "numberOfEmployees",
+        "en": "Number of Employees"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The estimated number of employees in the organization."
+      },
+      "domain": "4",
+      "range": "32"
+    },
+    {
+      "id": "85",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "20",
+      "range": "12",
+      "pos": [
+        736.83,
+        224.54
+      ]
+    },
+    {
+      "id": "86",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "27",
+      "range": "12",
+      "pos": [
+        917.01,
+        -75.27
+      ]
+    },
+    {
+      "id": "87",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "52",
+      "pos": [
+        1200.43,
+        752.21
+      ]
+    },
+    {
+      "id": "88",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "66",
+      "pos": [
+        -122.18,
+        736.56
+      ]
+    },
+    {
+      "id": "89",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "21",
+      "range": "20",
+      "pos": [
+        732.75,
+        631.21
+      ]
+    },
+    {
+      "id": "90",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "20",
+      "pos": [
+        895.59,
+        242.02
+      ]
+    },
+    {
+      "id": "91",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "12",
+      "pos": [
+        411.88,
+        59.4
+      ]
+    },
+    {
+      "id": "92",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "52",
+      "range": "20",
+      "pos": [
+        969.14,
+        678.4
+      ]
+    },
+    {
+      "id": "93",
+      "iri": "http://www.ontotext.com/proton/protontop#hasDate",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasDate",
+        "en": "has Date"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "Typically, Date will be associated with the creation or availability of the resource. Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and includes (among others) dates of the form YYYY-MM-DD. For official documents, it could be the date of signature. It can also contain a java timestamp. Usually, time is connected to a happening (event/situation) in which the information resource is a participation entity. These include: creation of the information resource, its modification or other important happening. Very often such happening is in the background knowledge and the modeling of domain task does not require the explicit representation of this happening. If it plays important role in the model domain or for the task, then the user needs to extend the ontology in an appropriate way."
+      },
+      "domain": "1",
+      "range": "94"
+    },
+    {
+      "id": "95",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "58",
+      "range": "20",
+      "pos": [
+        907.01,
+        709.63
+      ]
+    },
+    {
+      "id": "96",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "76",
+      "range": "20",
+      "pos": [
+        937.71,
+        658.67
+      ]
+    },
+    {
+      "id": "97",
+      "iri": "http://www.ontotext.com/proton/protontop#subsidiaryOrganizationOf",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "subsidiaryOrganizationOf",
+        "en": "Subsidiary Organization of"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Indicates that an organization is in some sense part of another organization. This necessarily requires structural and organizational relations and may or may not indicate ownership. Its reverse, parentOrganizationOf, is a special case of partial control."
+      },
+      "domain": "4",
+      "range": "4",
+      "superproperty": [
+        "98"
+      ],
+      "inverse": "124",
+      "pos": [
+        -566.54,
+        686.61
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.ontotext.com/proton/protontop#hasContributor",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasContributor",
+        "en": "has Contributor"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "An agent responsible for making contributions to the content of a resource. Examples of Contributor include a person, an organization, or a service. DC2003ISO"
+      },
+      "domain": "1",
+      "range": "21",
+      "subproperty": [
+        "22"
+      ],
+      "pos": [
+        971.27,
+        708.03
+      ]
+    },
+    {
+      "id": "100",
+      "iri": "http://www.ontotext.com/proton/protontop#inLanguage",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "inLanguage",
+        "en": "in Language"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The language of the intellectual content of a resource. Recommended best practice is to use RFC 3066 [RFC3066], which, in conjunction with ISO 639 [ISO639], defines two- and three-letter primary language tags with optional subtags. Examples include “en” or “eng” for English, “akk” for Akkadian, and “en-GB” for English used in the United Kingdom. DC2003ISO"
+      },
+      "domain": "1",
+      "range": "26",
+      "pos": [
+        1387.18,
+        423.52
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.ontotext.com/proton/protontop#involvedIn",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "involvedIn",
+        "en": "Involved in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The participating entities in a given happening that are agents. Participation is usually via some role."
+      },
+      "domain": "21",
+      "range": "17",
+      "superproperty": [
+        "67"
+      ],
+      "inverse": "62"
+    },
+    {
+      "id": "102",
+      "iri": "http://www.ontotext.com/proton/protontop#heldTo",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "heldTo",
+        "en": "Held to"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "When the holder released a given position"
+      },
+      "domain": "74",
+      "range": "103"
+    },
+    {
+      "id": "104",
+      "iri": "http://www.ontotext.com/proton/protontop#hasEmployee",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasEmployee",
+        "en": "has Employee"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relates a particular organization to its employees."
+      },
+      "domain": "60",
+      "range": "8",
+      "superproperty": [
+        "105"
+      ],
+      "pos": [
+        109.92,
+        1389.32
+      ]
+    },
+    {
+      "id": "106",
+      "iri": "http://www.ontotext.com/proton/protontop#owns",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "owns",
+        "en": "Owns"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "An agent fully owns an Object. In many cases this means also full control, unless the agent has transferred the control to another agent."
+      },
+      "domain": "23",
+      "range": "23",
+      "superproperty": [
+        "107"
+      ],
+      "pos": [
+        597.53,
+        -887.82
+      ]
+    },
+    {
+      "id": "108",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "18",
+      "range": "16",
+      "pos": [
+        25.9,
+        118.04
+      ]
+    },
+    {
+      "id": "98",
+      "iri": "http://www.ontotext.com/proton/protontop#partOf",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "partOf",
+        "en": "Part of"
+      },
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "comment": {
+        "en": "The general part-of relation which takes place between a whole and each of its parts. It has a number of specializations."
+      },
+      "domain": "12",
+      "range": "12",
+      "subproperty": [
+        "97",
+        "82"
+      ],
+      "pos": [
+        560.57,
+        -188.04
+      ]
+    },
+    {
+      "id": "111",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "9",
+      "range": "16",
+      "pos": [
+        -84.26,
+        553.04
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://www.ontotext.com/proton/protontop#informationResourceIdentifier",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "informationResourceIdentifier",
+        "en": "Information Resource Identifier"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "An unambiguous reference to the information resource within a given context. Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Formal identification systems include but are not limited to the Uniform Resource Identifier (URI) (including the Uniform Resource Locator (URL)), the Digital Object Identifier (DOI), and the International Standard Book Number (ISBN). DC2003ISO."
+      },
+      "domain": "1",
+      "range": "110"
+    },
+    {
+      "id": "114",
+      "iri": "http://www.ontotext.com/proton/protontop#isLegalEntity",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "isLegalEntity",
+        "en": "is Legal Entity"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "Determines whether a particular Agent is a legal entity. The range should be constrained to Boolean. Agents, for which the value is True, correspond to instances of http://www.cyc.com/2003/04/01/cyc#LegalAgent, which is defined as follows \"Each instance of #LegalAgent is an agent who has some status in a particular legal system. At the very least, such an agent is recognized by some legal authority as having some kinds of rights and/or responsibilities as an agent (e.g., #citizens of Germany), ... \". In PROTON, it is modeled as property in order to avoid multiple-inheritance of classes and/or multiple classifications of instances."
+      },
+      "domain": "21",
+      "range": "109"
+    },
+    {
+      "id": "116",
+      "iri": "http://www.ontotext.com/proton/protontop#hasSpouse",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasSpouse",
+        "en": "has Spouse"
+      },
+      "attributes": [
+        "symmetric"
+      ],
+      "comment": {
+        "en": "Relation between a man and a woman that are married. This property is time constrained by the marriage happening for the two persons. Thus, one could have different spouses in different periods. If this time relation is important for a given domain, it needs to be modelled by the marriage happening."
+      },
+      "domain": "23",
+      "range": "23",
+      "superproperty": [
+        "36"
+      ],
+      "pos": [
+        495.3,
+        -1163.12
+      ]
+    },
+    {
+      "id": "117",
+      "iri": "http://www.ontotext.com/proton/protontop#heldFrom",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "heldFrom",
+        "en": "Held from"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "When the holder occupied a given position"
+      },
+      "domain": "74",
+      "range": "118"
+    },
+    {
+      "id": "119",
+      "iri": "http://www.ontotext.com/proton/protontop#hasParent",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasParent",
+        "en": "has Parent"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relation between a person and his/her mother or father."
+      },
+      "domain": "23",
+      "range": "23",
+      "superproperty": [
+        "36"
+      ],
+      "inverse": "35"
+    },
+    {
+      "id": "120",
+      "iri": "http://www.ontotext.com/proton/protontop#lastName",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "lastName",
+        "en": "Last Name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The relation between a person and his/her last name. Usually the family name."
+      },
+      "domain": "8",
+      "range": "121"
+    },
+    {
+      "id": "36",
+      "iri": "http://www.ontotext.com/proton/protontop#hasRelative",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasRelative",
+        "en": "has Relative"
+      },
+      "attributes": [
+        "object",
+        "symmetric"
+      ],
+      "comment": {
+        "en": "Relation between a person and his/her relatives - mother, father, brother, sister, child, etc."
+      },
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "116",
+        "123",
+        "119",
+        "35"
+      ],
+      "pos": [
+        258.47,
+        1312.29
+      ]
+    },
+    {
+      "id": "124",
+      "iri": "http://www.ontotext.com/proton/protontop#parentOrganizationOf",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "parentOrganizationOf",
+        "en": "Parent Organization of"
+      },
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "comment": {
+        "en": "A relation between two organizations, where one of them is dependent on the other in some sense. This is a transitive relation, i.e. if organization X is a parent organization of Y and the latter is a parent organization of Z, then X is also considered a parent organization of Z. Inverse of subsidiaryOrganizationOf."
+      },
+      "domain": "4",
+      "range": "4",
+      "superproperty": [
+        "78"
+      ],
+      "inverse": "97"
+    },
+    {
+      "id": "125",
+      "iri": "http://www.ontotext.com/proton/protontop#subTopicOf",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "subTopicOf",
+        "en": "Subtopic of"
+      },
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "comment": {
+        "en": "A relation from less general to more general topic. Defined to be transitive via rule."
+      },
+      "domain": "122",
+      "range": "122",
+      "pos": [
+        1757.27,
+        171.66
+      ]
+    },
+    {
+      "id": "126",
+      "iri": "http://www.ontotext.com/proton/protontop#startTime",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "startTime",
+        "en": "Start Time"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "the starting moment of a happening"
+      },
+      "domain": "17",
+      "range": "127"
+    },
+    {
+      "id": "128",
+      "iri": "http://www.ontotext.com/proton/protontop#informationResourceCoverage",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "informationResourceCoverage",
+        "en": "Information Resource Coverage"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The extent or scope of resource content. Typically, Coverage will include spatial location (a place name or geographic coordinates), temporal period (a period label, date, or date range), or jurisdiction (such as a named administrative entity). Recommended best practice is to select a value from a controlled vocabulary (for example, the Thesaurus of Geographic Names [TGN]) and to use, where appropriate, named places or time periods in preference to numeric identifiers such as sets of coordinates or date ranges. DC2003ISO"
+      },
+      "domain": "1",
+      "range": "129"
+    },
+    {
+      "id": "130",
+      "iri": "http://www.ontotext.com/proton/protontop#name",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "name",
+        "en": "Name of any kind"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "12",
+      "range": "131"
+    },
+    {
+      "id": "132",
+      "iri": "http://www.ontotext.com/proton/protontop#resourceType",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "resourceType",
+        "en": "Resource Type"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content. Recommended best practice is to select a value from a controlled vocabulary (for example, the DCMI Type Vocabulary [DCT]). To describe the physical or digital manifestation of the resource, use the resourceFormat property. DC2003ISO."
+      },
+      "domain": "1",
+      "range": "61"
+    },
+    {
+      "id": "107",
+      "iri": "http://www.ontotext.com/proton/protontop#partiallyOwns",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "partiallyOwns",
+        "en": "Partially Owns"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Indicates that an Agent has some ownership over an object. It allows wide interpretations from \"I have a bike\" to \"John has shares in Fujitsu\"."
+      },
+      "domain": "23",
+      "range": "23",
+      "subproperty": [
+        "106"
+      ],
+      "superproperty": [
+        "78"
+      ],
+      "pos": [
+        655.54,
+        -995.04
+      ]
+    },
+    {
+      "id": "133",
+      "iri": "http://www.ontotext.com/proton/protontop#hasLeader",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasLeader",
+        "en": "has Leader"
+      },
+      "comment": {
+        "en": "A general relation between an organization and a person who rules or guides or inspires it in some sense. It may or may not be an employee, may or may not be formal etc. Typically there is a single leader of an organization."
+      },
+      "domain": "60",
+      "range": "8",
+      "superproperty": [
+        "105"
+      ],
+      "pos": [
+        37.1,
+        1359.45
+      ]
+    },
+    {
+      "id": "134",
+      "iri": "http://www.ontotext.com/proton/protontop#informationResourceRights",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "informationResourceRights",
+        "en": "Information Resource Rights"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "Information about rights held in and over the resource. Typically, Rights will contain a rights management statement for the resource, or reference to a service providing such information. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. If the Rights element is absent, no assumptions should be made about any rights held in or over the resource. DC2003ISO"
+      },
+      "domain": "1",
+      "range": "56"
+    },
+    {
+      "id": "135",
+      "iri": "http://www.ontotext.com/proton/protontop#hasSubject",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasSubject",
+        "en": "has Subject"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The topic of content of a given resource. Comment: Typically, the Subject will be expressed as keywords, key phrases, or classification codes that describe the topic of resource. Recommended best practice is to select a value from a controlled vocabulary or formal classification scheme. (DC2003ISO, Subject)"
+      },
+      "annotations": {
+        "transitiveOver": [
+          {
+            "identifier": "transitiveOver",
+            "language": "undefined",
+            "value": "http://www.ontotext.com/proton/protontop#subTopicOf",
+            "type": "iri"
+          }
+        ]
+      },
+      "domain": "1",
+      "range": "122",
+      "pos": [
+        1459.61,
+        411.94
+      ]
+    },
+    {
+      "id": "136",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "29",
+      "range": "1",
+      "pos": [
+        1489.74,
+        734.47
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://www.ontotext.com/proton/protontop#establishedIn",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "establishedIn",
+        "en": "Established in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The place where the organization is established or registered"
+      },
+      "domain": "4",
+      "range": "59",
+      "superproperty": [
+        "80"
+      ],
+      "pos": [
+        -515.94,
+        504.92
+      ]
+    },
+    {
+      "id": "137",
+      "iri": "http://www.ontotext.com/proton/protontop#roleIn",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "roleIn",
+        "en": "Role in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relates a role to a happening, conditioned and affected by the role. Usually, the participants of a happening 'play' one or more roles in it."
+      },
+      "domain": "18",
+      "range": "17",
+      "pos": [
+        222.07,
+        90.61
+      ]
+    },
+    {
+      "id": "138",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "26",
+      "range": "27",
+      "pos": [
+        1336.06,
+        49.9
+      ]
+    },
+    {
+      "id": "139",
+      "iri": "http://www.ontotext.com/proton/protontop#roleHolder",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "roleHolder",
+        "en": "Role Holder"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation between a role and the entity that 'plays' a role in a given happening."
+      },
+      "domain": "18",
+      "range": "12",
+      "pos": [
+        377.6,
+        -49.03
+      ]
+    },
+    {
+      "id": "105",
+      "iri": "http://www.ontotext.com/proton/protontop#hasMember",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasMember",
+        "en": "has Member"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relates a particular organization to the agents that are its members. This predicate indicates `generic' membership, although there may be specialized kinds of membership in the same organization. Typically, membership eligibility is determined by the organization and accepted with the agent's voluntary affiliation. In many cases Persons that take Positions within Organization are considered members of the organization, although this is no way formally encoded here."
+      },
+      "domain": "66",
+      "range": "21",
+      "subproperty": [
+        "104",
+        "133"
+      ],
+      "pos": [
+        395.51,
+        847.44
+      ]
+    },
+    {
+      "id": "140",
+      "iri": "http://www.ontotext.com/proton/protontop#nimaGNSUniqueFeatureIndentifier",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "nimaGNSUniqueFeatureIndentifier",
+        "en": "NIMA GNS Unique Feature Identifier"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The Unique Feature Identifier from the NIMA GNS. A number which uniquely identifies the location."
+      },
+      "domain": "34",
+      "range": "54"
+    },
+    {
+      "id": "141",
+      "iri": "http://www.ontotext.com/proton/protontop#isBossOf",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "isBossOf",
+        "en": "is Boss of"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relates a Person to another one, where the first is the immediate boss or supervisor of the latter. This is a many-to-many relationship, i.e. there can be more than one boss of a person, even contemporally."
+      },
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        187,
+        1349.56
+      ]
+    },
+    {
+      "id": "123",
+      "iri": "http://www.ontotext.com/proton/protontop#hasSibling",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasSibling",
+        "en": "has Sibling"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relation between a person and his/her siblings - brother or sister."
+      },
+      "domain": "23",
+      "range": "23",
+      "superproperty": [
+        "36"
+      ],
+      "pos": [
+        413.79,
+        -874.83
+      ]
+    },
+    {
+      "id": "142",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "49",
+      "range": "27",
+      "pos": [
+        1278.81,
+        -309.72
+      ]
+    },
+    {
+      "id": "143",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "99",
+      "range": "27",
+      "pos": [
+        1190.99,
+        45.38
+      ]
+    },
+    {
+      "id": "144",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "122",
+      "range": "27",
+      "pos": [
+        1408.5,
+        38.32
+      ]
+    },
+    {
+      "id": "145",
+      "iri": "http://www.ontotext.com/proton/protontop#latitude",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "latitude",
+        "en": "Latitude"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "In degrees, minutes, and seconds: no sign or (+) = North; negative sign (-) = South."
+      },
+      "domain": "34",
+      "range": "42"
+    },
+    {
+      "id": "67",
+      "iri": "http://www.ontotext.com/proton/protontop#involvedEntityIn",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "involvedEntityIn",
+        "en": "Entity Involved in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The entities related to a given happening. Such entities can be agents, instruments, materials, places, etc."
+      },
+      "domain": "12",
+      "range": "17",
+      "subproperty": [
+        "63"
+      ],
+      "inverse": "64"
+    },
+    {
+      "id": "146",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "50",
+      "range": "17",
+      "pos": [
+        128.74,
+        330.76
+      ]
+    },
+    {
+      "id": "147",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "16",
+      "range": "17",
+      "pos": [
+        102.56,
+        280.12
+      ]
+    },
+    {
+      "id": "148",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "149",
+      "range": "27",
+      "pos": [
+        1379.63,
+        -238.49
+      ]
+    },
+    {
+      "id": "150",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "74",
+      "range": "9",
+      "pos": [
+        -177.96,
+        935.52
+      ]
+    },
+    {
+      "id": "151",
+      "iri": "http://www.ontotext.com/proton/protontop#validUntil",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "validUntil",
+        "en": "Valid until"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The time when a statement is made invalid. The happening of making the statement invalid is not explicitly represented in Proton. If it is necessary for the task the ontology should be extented."
+      },
+      "domain": "52",
+      "range": "41"
+    },
+    {
+      "id": "152",
+      "iri": "http://www.ontotext.com/proton/protontop#producedBy",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "producedBy",
+        "en": "Produced by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "A relation between a company and its ProductModel"
+      },
+      "domain": "76",
+      "range": "21",
+      "pos": [
+        813.81,
+        817.24
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://www.ontotext.com/proton/protontop#registeredIn",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "registeredIn",
+        "en": "Registered in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "A relation between an organization and the location in which it is registered."
+      },
+      "domain": "4",
+      "range": "59",
+      "superproperty": [
+        "80"
+      ],
+      "pos": [
+        -573.64,
+        556.49
+      ]
+    },
+    {
+      "id": "153",
+      "iri": "http://www.ontotext.com/proton/protontop#populationCount",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "populationCount",
+        "en": "Population Count"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The number of citizens of a location."
+      },
+      "domain": "34",
+      "range": "33"
+    },
+    {
+      "id": "154",
+      "iri": "http://www.ontotext.com/proton/protontop#endTime",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "endTime",
+        "en": "End Time"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "the end time point of a happening"
+      },
+      "domain": "17",
+      "range": "40"
+    },
+    {
+      "id": "82",
+      "iri": "http://www.ontotext.com/proton/protontop#subRegionOf",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "subRegionOf",
+        "en": "Subregion of"
+      },
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "comment": {
+        "en": "Relation between two locations where the first is contained within the other."
+      },
+      "domain": "34",
+      "range": "38",
+      "superproperty": [
+        "80",
+        "98"
+      ],
+      "pos": [
+        892.07,
+        -194.01
+      ]
+    },
+    {
+      "id": "155",
+      "iri": "http://www.ontotext.com/proton/protontop#hasOldName",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasOldName",
+        "en": "has Old Name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "Relates an entity to its old name or alias that is no longer considered legitimate. For instance, Pekin is one of the old spellings of the name of the Chineese capital Beijing. The same happens to companies when they change their names and to womam when she gets married."
+      },
+      "domain": "23",
+      "range": "31"
+    },
+    {
+      "id": "156",
+      "iri": "http://www.ontotext.com/proton/protontop#givenName",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "givenName",
+        "en": "Given Name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The relation between a person and his/her given name."
+      },
+      "domain": "8",
+      "range": "6"
+    },
+    {
+      "id": "157",
+      "iri": "http://www.ontotext.com/proton/protontop#statedBy",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "statedBy",
+        "en": "Stated by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Relates a statement to the agent who made it. In the case of an offer, the agent is the offerer; in case of a contract, those are the parties. In case of written statements, the creator/author and the \"stater\" could be different agents, due to the fact that one agent my have prepared and/or published a statement on behalf of another."
+      },
+      "domain": "52",
+      "range": "21",
+      "pos": [
+        845.23,
+        836.96
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://www.ontotext.com/proton/protontop#holder",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "holder",
+        "en": "Holder"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The person holding the position"
+      },
+      "domain": "74",
+      "range": "8",
+      "inverse": "73"
+    },
+    {
+      "id": "158",
+      "iri": "http://www.ontotext.com/proton/protontop#firstName",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "firstName",
+        "en": "First Name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The relation between a person and his/her first name. Usually used to call the person."
+      },
+      "domain": "8",
+      "range": "113"
+    },
+    {
+      "id": "159",
+      "iri": "http://www.ontotext.com/proton/protontop#withinOrganization",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "withinOrganization",
+        "en": "within Organization"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Determines in which organization is the position"
+      },
+      "domain": "74",
+      "range": "4",
+      "pos": [
+        -342.63,
+        873.33
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.ontotext.com/proton/protontop#socialPositionHolder",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "socialPositionHolder",
+        "en": "Social Position Holder"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The relation between a social position and the person who has it. "
+      },
+      "domain": "9",
+      "range": "8",
+      "inverse": "7"
+    },
+    {
+      "id": "160",
+      "iri": "http://www.ontotext.com/proton/protontop#nimaGNSDesignator",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "nimaGNSDesignator",
+        "en": "NIMA GNS Designator"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "en": "The designator of the entity according to the NIMA GeoNames Server."
+      },
+      "domain": "34",
+      "range": "115"
+    },
+    {
+      "id": "161",
+      "iri": "http://www.ontotext.com/proton/protontop#hasContactInfo",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "hasContactInfo",
+        "en": "has Contact Info"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "The information by which a given object can be contacted. Usually an address, telefon number, e-mail address, etc."
+      },
+      "domain": "20",
+      "range": "99",
+      "pos": [
+        1010.81,
+        345.19
+      ]
+    },
+    {
+      "id": "78",
+      "iri": "http://www.ontotext.com/proton/protontop#partiallyControls",
+      "baseIri": "http://www.ontotext.com/proton/protontop",
+      "label": {
+        "IRI-based": "partiallyControls",
+        "en": "Partially Controls"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "en": "Any sort of partial control an agent has with respect to an object."
+      },
+      "domain": "21",
+      "range": "20",
+      "subproperty": [
+        "124",
+        "107",
+        "77"
+      ],
+      "pos": [
+        696.94,
+        602.23
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-101-21-0",
+      "domain": "101",
+      "range": "21",
+      "pos": [
+        584.17,
+        582.03
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-101-12-1",
+      "domain": "101",
+      "range": "12",
+      "pos": [
+        581.03,
+        172.34
+      ]
+    }
+  ]
+}
